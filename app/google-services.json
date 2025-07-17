@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "623765053057",
+    "firebase_url": "https://notes-46246-default-rtdb.firebaseio.com",
+    "project_id": "notes-46246",
+    "storage_bucket": "notes-46246.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623765053057:android:993d62fafddd25c6987780",
+        "android_client_info": {
+          "package_name": "com.example.ProTime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDJrawzfszTYOCl6iM_GrL06jGP50Zwx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623765053057:android:6bdba20bc2191b50987780",
+        "android_client_info": {
+          "package_name": "com.example.trialapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDJrawzfszTYOCl6iM_GrL06jGP50Zwx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623765053057:android:6d850c14e1c5bc52987780",
+        "android_client_info": {
+          "package_name": "com.unique.simplealarmclock"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDJrawzfszTYOCl6iM_GrL06jGP50Zwx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623765053057:android:72f8d2ecf4750b7b987780",
+        "android_client_info": {
+          "package_name": "shashankbhat.notesapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDJrawzfszTYOCl6iM_GrL06jGP50Zwx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
