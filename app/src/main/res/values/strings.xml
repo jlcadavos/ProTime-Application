@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ProTime</string>
+    <string name="arg_alarm_obj">AlarmObject</string>
+    <string name="bundle_alarm_obj">BundleAlarmObject</string>
+    <string name="alarm_title">My Alarm</string>
+    <string name="dayNightTheme">DayNightTheme</string>
+
+    <string name="listEmptyText">
+<![CDATA[
+<p><b>What do you want to do today?</b><br> You can create new a new Schedule.</p>
+]]>
+</string>
+    <string name="actionBarTitle">Schedule</string>
+    <string name="editTaskHint">You\'re Task</string>
+    <string name="dialogDate">Date</string>
+    <string name="dialogTime">Time</string>
+    <string name="cardTitle">Title</string>
+    <string name="cardDate">sub title</string>
+    <string name="cardTime">sub title</string>
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+</resources>
