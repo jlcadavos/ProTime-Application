@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivityTodoList">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:background="@color/yellowish"
+        android:padding="5dp"
+        android:gravity="center"
+        android:text="To-do List"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/left"
+        android:layout_width="48dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/textview"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:padding="5dp"
+        android:src="@drawable/ic_baseline_delete" />
+
+    <TextView
+        android:id="@+id/lefts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Swipe to right"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/rights"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textview"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/black"
+        android:gravity="center"
+        android:padding="5dp"
+        android:src="@drawable/ic_baseline_edit" />
+
+    <TextView
+        android:id="@+id/right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/lefts"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text=" Swipe to Left "
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerview"
+        android:layout_below="@id/textview"
+        android:layout_marginTop="55dp"
+        android:nestedScrollingEnabled="true"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/ic_baseline_add_24" />
+
+</RelativeLayout>

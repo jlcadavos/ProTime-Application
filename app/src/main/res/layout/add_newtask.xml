@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="300dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext"
+        android:textSize="25dp"
+        android:paddingStart="20dp"
+        android:hint="Enter New Task"
+        android:paddingEnd="20dp"/>
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_below="@id/edittext"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/forbutton"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>
